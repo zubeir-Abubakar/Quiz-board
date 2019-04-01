@@ -79,9 +79,9 @@ if(correct >90){
     range = 0;
 }
 
-    document.getElementById("after_submit").style.visibility="visible";
+    document.getElementById("after_submit").style. visibility="visible";
 
-    document.getElementById("me ssage").innerHTML = messages[range];
+    document.getElementById("message").innerHTML = messages[range];
     document.getElementById("number-correct").innerHTML = "You got  " + correct +  " %" + " correct";
     document.getElementById("pictures").src=pictures[range];
 }
