@@ -17,7 +17,7 @@ if(question1 == "Null") {
 if(question2 == "toFixed") {
     correct = correct + 10;
 }
-if(question3 == "Falose") {
+if(question3 == "False") {
     correct = correct + 10;
 }
 if(question4 == "HTML") {
@@ -81,7 +81,7 @@ if(correct >90){
 
     document.getElementById("after_submit").style.visibility="visible";
 
-    document.getElementById("message").innerHTML = messages[range];
+    document.getElementById("me ssage").innerHTML = messages[range];
     document.getElementById("number-correct").innerHTML = "You got  " + correct +  " %" + " correct";
     document.getElementById("pictures").src=pictures[range];
 }
