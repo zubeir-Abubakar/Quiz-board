@@ -50,7 +50,7 @@ ol{
 #after_submit{
     visibility: hidden;
     background: black;
-    padding:  20px ;
+    padding: 20px ;
     width: 400px;
     border-radius: 20px;
     color: azure;
@@ -69,5 +69,5 @@ body{
 marquee{
     background :greenyellow;
     align: center;
-    width:unset;
+    width: unset;
 }
