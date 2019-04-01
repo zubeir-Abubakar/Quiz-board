@@ -9,9 +9,9 @@ The project below is a board quiz or test. The test is about javascript and some
 
 -A proper network connection.
 
--A safe and secure browsing site .
+-A safe and secure browsing site.
 
-- and lastly the link to the project where you can sit for the quiz ()
+-And lastly the link to the project where you can sit for the quiz (https://zubeir-abubakar.github.io/Quiz-board/)
 
 ## Deployment
 
