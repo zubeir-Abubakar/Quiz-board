@@ -1,4 +1,4 @@
- function check(){
+ function check(b){
 
 var question1 = document.quiz.question1.value;
 var question2 = document.quiz.question2.value;
@@ -72,7 +72,7 @@ if(correct >60 && correct <80) {
 if(correct >70 && correct <90){
     range = 2;
 }
-if(correct > 80 && correct <100){
+if(correct >80 && correct <100){
     range = 1;
 }
 if(correct >90){
