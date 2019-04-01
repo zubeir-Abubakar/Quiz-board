@@ -72,14 +72,14 @@ if(correct >60 && correct <80) {
 if(correct >70 && correct <90){
     range = 2;
 }
-if(correct >80 && correct <100){
+if(correct > 80 && correct <100){
     range = 1;
 }
 if(correct >90){
     range = 0;
 }
 
-    document.getElementById("after_submit").style. visibility="visible";
+    document.getElementById("after_submit").style.visibility="visible";
 
     document.getElementById("message").innerHTML = messages[range];
     document.getElementById("number-correct").innerHTML = "You got  " + correct +  " %" + " correct";
