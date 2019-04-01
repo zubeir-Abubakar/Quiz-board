@@ -71,3 +71,6 @@ marquee{
     align: center;
     width: unset;
 }
+.jumbotron{
+    margin: 50px;
+}
