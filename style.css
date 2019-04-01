@@ -42,7 +42,7 @@ ol{
 }
 #button:hover{
     background: white;
-    border: 1px solid red;
+    border: 1px solid blue;
     color: black;
     cursor: pointer;
 
