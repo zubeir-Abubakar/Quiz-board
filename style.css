@@ -3,7 +3,7 @@ body{
     font-family:sans-serif;
 }
 #after-submit {
-    visibility: hidden;
+    visibility:hidden;
 }
 h1{
     margin-left: 280px;
