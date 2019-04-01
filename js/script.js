@@ -4,7 +4,7 @@ var question1 = document.quiz.question1.value;
 var question2 = document.quiz.question2.value;
 var question3 = document.quiz.question3.value;
 var question4 = document.quiz.question4.value;
-var question5 = document.qui z.question5.value;
+var question5 = document.quiz.question5.value;
 var question6 = document.quiz.question6.value;
 var question7 = document.quiz.question7.value;
 var question8 = document.quiz.question8.value;
@@ -41,7 +41,7 @@ if(question9 == "2"){
 if(question10 == "4"){
     correct = correct + 10;
 }
-var messages = [ "congrates you passed !!",  "Great job !!",  "well done!!" ,  "Good trial !!",  "Nice trial there!!", "fair job!!", "its okay!!", "Work hard !!", "you need to work harder!! !!" , "better luck next time bruh!!" , "you failed!!" ];
+var messages = [ "congratesyou passed !!",  "Great job !!",  "well done!!" ,  "Good trial !!",  "Nice trial there!!", "fair job!!", "its okay!!", "Work hard !!", "you need to work harder!! !!" , "better luck next time bruh!!" , "you failed!!" ];
 var pictures = ["img/clap.gif",             "img/bean.gif" , "img/well.gif",  "img/Laurent.gif" ,  "img/nyc.gif"  , "img/fair.gif",  "img/ok.gif", "img/not.gif",   "img/pengiun.gif",          "img/luck.gif",        "img/think.gif"];
 
 var range;
