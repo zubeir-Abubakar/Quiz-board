@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <title><center>THE QUIZ BOX BOARD</title>
+        <div class="marquee">
+            <center><marquee width=300 height=30 directions="scroll">** TIME TO TEST YOUR JAVA AND COMPUTER LANGUAGES KNOWLEDGE!!**</marquee>
+        </div>
+</head>
+
+<body background="./green.jpeg">
+    <h1><center>QUIZ BOARD</h1>
+     <P><em>The following are questions concerning the javascript and more . You are given a question and each question has 3 options "A" , "B","C"</em></P>
+     <P><em>your marks will be awarded to you as soon as you submit </em></P>
+     <P><strong>All the best!!</strong></P>
+     <p><em><strong>N/B:</strong>YOUR RESULTS WILL BE CONVERTED INTO PERCENTAGE (%) </em></p>
+     <h2><center> QUIZ</h2>
+        <ol>
+        <form id="quiz" name="quiz">
+            <li>Which of the following is a Data type?  (10 mark)</li>
+            <input id="tc" type="radio" name="question1" value="Alert" /> Alert<br>
+            <input id="tc" type="radio" name="question1" value="Null" /> Null<br>
+            <input id="tc" type="radio" name="question1" value="Confirm" /> Confirm<br><br>
+            <li>Which of the following is part of string methods?  (10 mark)</li>
+            <input id="tc" type="radio" name="question2" value="toFixed" /> toFixed<br>
+            <input id="tc" type="radio" name="question2" value="Slice" /> Slice<br>
+            <input id="tc" type="radio" name="question2" value="ConCat" />ConCat<br><br>
+            <li>is JAVA the same as Java script?  (10 mark)</li>
+            <input id="tc" type="radio" name="question3" value="Yes" /> Yes<br>
+            <input id="tc" type="radio" name="question3" value="False" /> False<br>
+            <input id="tc" type="radio" name="question3" value="I don't know" /> I don't know<br><br>
+            <li>A webpage behaviour is defined by the?  (10 mrk)</li>
+            <input id="tc" type="radio" name="question4" value="HTML" /> HTML<br>
+            <input id="tc" type="radio" name="question4" value="CSS" /> CSS <br>
+            <input id="tc" type="radio" name="question4" value="PYTHON" /> PYTHON <br><br>
+            <li>Which one of the following is a reserved word in JAVA programing language?  (10 mrk)</li>
+            <input id="tc" type="radio" name="question5" value="Method" /> Method <br>
+            <input id="tc" type="radio" name="question5" value="Native" /> Native <br>
+            <input id="tc" type="radio" name="question5" value="Array" /> Array <br><br>
+            <li> Which of the following contains list on Java programming language keywords ? (10 mrk) </li>
+            <input id="tc" type="radio" name="question6" value="Class, If, Void " /> Class, If, Void <br>
+            <input id="tc" type="radio" name="question6" value="native, finally, throws" /> native, finally, throws<br>
+            <input id="tc" type="radio" name="question6" value="Super, Do, Constant" /> Super, Do, Constant<br><br>
+            <li> W hich one of the following is a valid declaration of a Boolen? (10 mrk) </li>
+            <input id="tc" type="radio" name="question7" value="Boolen b1=0" /> Boolen b1= 0<br>
+            <input id="tc" type="radio" name="question7" value="Boolen b2='false';" /> Boolen b2= 'false';<br>
+            <input id="tc" type="radio" name="question7" value="Boolen b3= false;" /> Boolen b3= false;<br><br>
+            <li>which generation is JAVA programming language ? (10 mrk)</li>
+            <input id="tc" type="radio" name="question8" value="first" /> first <br>
+            <input id="tc" type="radio" name="question8" value="second" /> second <br>
+            <input id="tc" type="radio" name="question8" value="third" /> third <br><br>
+            <li>How many ways can increment and decrement operators be used ? (10 mrk)</li>
+            <input id="tc" type="radio" name="question9" value="2" /> 2 <br>
+            <input id="tc" type="radio" name="question9" value="3" /> 3 <br>
+            <input id="tc" type="radio" name="question9" value="5" /> 5 <br><br>
+            <li>Inheritance are of how many types? (10 mark)</li>
+            <input id="tc" type="radio" name="question10" value="4" /> 4 <br>
+            <input id="tc" type="radio" name="question10" value="2" /> 2 <br>
+            <input id="tc" type="radio" name="question10" value="8" /> 8 <br><br>
+            </ol> 
+            <input id="button" type="button" value="check my results" onclick="check();"><br><br>
+     <div class="button">
+     </div>
+    </form>
+     <div id="after_submit">
+
+        <p id="message"></p>
+         <P id="number-correct"></P>
+         <img id="pictures">
+     </div>
+    </body>
+    </html>
+    
+        
