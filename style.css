@@ -68,6 +68,7 @@ body{
 }
 marquee{
     background :black;
+    color: white;
     align: center;
     width: unset;
 }
