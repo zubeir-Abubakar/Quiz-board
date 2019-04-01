@@ -74,4 +74,5 @@ marquee{
 .jumbotron{
     margin: 50px;
     padding: 20px;
+    border-radius: inherit;
 }
