@@ -17,7 +17,7 @@ if(question1 == "Null") {
 if(question2 == "toFixed") {
     correct = correct + 10;
 }
-if(question3 == "False") {
+if(question3 == "Falose") {
     correct = correct + 10;
 }
 if(question4 == "HTML") {
