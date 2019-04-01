@@ -67,7 +67,7 @@ body{
     height: 245px;
 }
 marquee{
-    background :greenyellow;
+    background :black;
     align: center;
     width: unset;
 }
