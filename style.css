@@ -31,7 +31,7 @@ ol{
     margin-left: 20px;
 }
 #button{
-    background: sienna;
+    background: grey;
     border: none;
     border-radius: 5px;
     padding:10px;
@@ -53,7 +53,7 @@ ol{
     padding: 20px ;
     width: 400px;
     border-radius: 20px;
-    color: gold;
+    color: white;
     float:left;
     margin-left: 20px;
     font-size: 20px;
