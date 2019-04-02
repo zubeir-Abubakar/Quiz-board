@@ -17,7 +17,7 @@ The project below is a board quiz or test. The test is about javascript and some
 
 Enter the link into the url interface and click the prompt. it will get you your search results
 Built With
--visual studio code(VS CODE)
+-Visual studio code(VS CODE)
 
 ## How to use it and how it works.
 
@@ -39,8 +39,9 @@ Built With
 **{zubeir-Abubakar}**
 
 ## Support and contact details
-incase you run into any issues feel free to contact me through this number [0743046778]or make any changes using the visual studio code .
-License
+Incase you run into any issues feel free to make any changes using the visual studio code .
+
+## ICENCE
 **{MIT}**
 Copyright (c) {year=2019} {zubeir-Abubakar}
 licensed under the *MIT*

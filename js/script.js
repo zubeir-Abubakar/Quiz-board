@@ -1,3 +1,5 @@
+ //user.logic
+ 
  function check(){
 
 var question1 = document.quiz.question1.value;
@@ -41,6 +43,9 @@ if(question9 == "2"){
 if(question10 == "4"){
     correct = correct + 10;
 }
+
+//business.logic
+
 var messages = [ "congrates you passed !!",  "Great job !!",  "well done!!" ,  "Good trial !!",  "Nice trial there!!", "fair job!!", "its okay!!", "Work hard !!", "you need to work harder!! !!" , "better luck next time bruh!!" , "you failed you need to Retake!!" ];
 var pictures = ["img/clap.gif",             "img/bean.gif" , "img/well.gif",  "img/Laurent.gif" ,  "img/nyc.gif"  , "img/fair.gif",  "img/ok.gif", "img/not.gif",   "img/pengiun.gif",          "img/just.gif",        "img/think.gif"];
 
